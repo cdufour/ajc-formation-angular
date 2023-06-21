@@ -2,3 +2,16 @@
 
 1. Au clic sur le bouton "Init", redonnez au titre sa valeur initiale (retirez les éventuels 
 points d'exclamations ajoutés)
+
+2. Exo QuoteComponent
+Créer un composant "citation" qui affichera une citation et son auteur.
+Cet affichage se fera de façon aléatoire ou bien séquencielle 
+(le premier élément, puis le second, etc.), à intervale régulier (toutes les 10 secondes).
+La liste des citations sera embarquée dans le composant en tant que propriété de classe.
+
+Exemples de citation: 
+"La femme est l'avenir de l'homme" (Aragon)
+"The world is yours" (Toni Montana)
+"Ad astra per aspera" (Inconnu)
+
+Tip: setInterval
