@@ -1,0 +1,4 @@
+*** Exos ***
+
+1. Au clic sur le bouton "Init", redonnez au titre sa valeur initiale (retirez les éventuels 
+points d'exclamations ajoutés)

@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular';
+
+  onClick() {
+    //console.log('click')
+    this.title += '!';
+  }
+
+  init() {
+    this.title = 'Angular';
+  }
 }
