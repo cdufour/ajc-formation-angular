@@ -1,0 +1,6 @@
+<h3>{{ name }}</h3>
+<p>
+    <span>Note obtenue: {{ grade }}</span>
+    <img *ngIf="grade > 15" src="assets/images/trophee.png" [alt]="name" width="16" />
+    <span *ngIf="grade < 10"> => Alerter les autorités</span>
+</p>

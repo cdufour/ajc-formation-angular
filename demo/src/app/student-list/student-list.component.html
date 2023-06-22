@@ -1,0 +1,8 @@
+<div>
+    <!-- <app-student-card name="toto" [grade]="4"></app-student-card> -->
+    <app-student-card
+        *ngFor="let student of students"
+        [name]="student.name"
+        [grade]="student.grade"
+    ></app-student-card>
+</div>
