@@ -16,4 +16,9 @@ export class AppComponent {
   init() {
     this.title = 'Angular';
   }
+
+  onMessage() {
+    console.log("fiston m'appelle");
+    this.title = "fiston m'appelle";
+  }
 }

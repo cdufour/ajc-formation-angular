@@ -1,0 +1,9 @@
+<select (change)="onChange($event)">
+    <option *ngFor="let city of cities">{{ city.name }}</option>
+</select>
+
+<p>{{ selectedCity?.name | uppercase }}</p>
+
+<exos-city-card [city]="selectedCity"></exos-city-card>
+
+

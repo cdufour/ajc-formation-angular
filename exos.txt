@@ -26,3 +26,12 @@ Lorsque l'utilisateur choisit une ville, devront apparaître dans le DOM:
 
 Veuillez utiliser un composant enfant pour l'affichage 
 des données (images + textes) de la ville
+
+4.
+En vous inspirant de la capture (exo4-capture.png), créer un composant Angular 
+affichant un bouton bascule "oui/non"
+
+L'apparence du bouton change un fonction de la valeur choisie
+
+Quand oui est choisi, on affiche dans la console la valeur: 1
+Quand non est choisi, on affiche dans la console la valeur: 0

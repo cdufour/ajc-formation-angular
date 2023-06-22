@@ -7,6 +7,7 @@ import { StudentsComponent } from './students/students.component';
 import { ChoiceComponent } from './choice/choice.component';
 import { StudentListComponent } from './student-list/student-list.component';
 import { StudentCardComponent } from './student-card/student-card.component';
+import { AscComComponent } from './asc-com/asc-com.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { StudentCardComponent } from './student-card/student-card.component';
     StudentsComponent,
     ChoiceComponent,
     StudentListComponent,
-    StudentCardComponent
+    StudentCardComponent,
+    AscComComponent
   ],
   imports: [
     BrowserModule,
