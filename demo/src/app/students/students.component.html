@@ -1,1 +1,30 @@
 <h3>Student List</h3>
+
+<!-- afficher un paragraphe avec nom de l'étudiant -->
+<p *ngFor="let student of students; index as i">
+    <span>#{{ i + 1 }} </span>
+    <span [ngStyle]="{'color': student.grade < 10 ? 'red' : 'black'}">{{ student.name }} </span>
+    <span [ngStyle]="{'color': getColor(i)}">({{ student.grade }}/20)</span>
+    <span [ngStyle]="objStyle"> => !!! INFO !!!</span>
+    <span *ngIf="student.grade < 10"> => alerter les autorités !</span>
+</p>
+
+<ol>
+    <li 
+        [ngClass]="{'winner': student.grade > 15, 'loser': student.grade < 10}" 
+        *ngFor="let student of students"
+    >
+        {{ student.name }}
+    </li>
+</ol>
+
+<p [ngClass]="objClass">Simple paragraphe</p>
+
+<select>
+    <option 
+        [class]="'stu'+ i"
+        [value]="'student_' + (i+1)" 
+        *ngFor="let student of students; index as i">
+        {{ student.name }}
+    </option>
+</select>
