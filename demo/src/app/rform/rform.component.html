@@ -5,6 +5,14 @@
     <label>Note
         <input type="number" formControlName="grade" />
     </label>
+    <label>Email
+        <input type="email" formControlName="email" />
+    </label>
+    <label>Code postal
+        <input type="text" formControlName="postcode" />
+    </label>
+    <button [disabled]="studentForm.invalid">Valider</button>
 </form>
 
-<div>{{ studentForm.controls['name'].value }}</div>
+<div>Name value: {{ studentForm.controls['name'].value }}</div>
+<div>Formulaire valide: {{ studentForm.valid }}</div>

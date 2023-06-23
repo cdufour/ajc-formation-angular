@@ -9,4 +9,6 @@
 - [Jour 3 - après-midi](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/demo/2023-06-23-angular-j3-pm.webm)
 
 ## Liens utiles
-- [](https://reactivex.io/)
+- [Support de formation](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/demo/Angular.pdf)
+- [Reactive Extensions](https://reactivex.io/)
+- [Introduction | Angular Unit Testing | youtube | EN](https://youtu.be/emnwsVy8wRs)

@@ -15,6 +15,7 @@ import { AscComComponent } from './asc-com/asc-com.component';
 import { StudentFormComponent } from './student-form/student-form.component';
 import { StudentWrapperComponent } from './student-wrapper/student-wrapper.component';
 import { RformComponent } from './rform/rform.component';
+import { DemoRoutingModule } from './demo-routing/demo-routing.module';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { RformComponent } from './rform/rform.component';
     ExosModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    DemoRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
