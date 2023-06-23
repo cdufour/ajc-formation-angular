@@ -21,4 +21,5 @@ export class AppComponent {
     console.log("fiston m'appelle");
     this.title = "fiston m'appelle";
   }
+
 }

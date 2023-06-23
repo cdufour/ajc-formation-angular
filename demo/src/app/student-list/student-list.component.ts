@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { StudentService } from '../student.service';
+import { Component, Input } from '@angular/core';
 import { Student } from '../student';
 
 @Component({
@@ -9,20 +8,6 @@ import { Student } from '../student';
 })
 export class StudentListComponent {
   
-  // students: Student[] = [
-  //   { name: "Claire", grade: 18 },
-  //   { name: "Daniel", grade: 2 },
-  //   { name: "Nathalie", grade: 18.5 }
-  // ];
-
-  students: Student[] = [];
-
-  // injection de dépendance
-  // ce composant "s'injecte" un objet de type StudentService
-  constructor(private studentService: StudentService) {
-    studentService.getStudents().subscribe((students: Student[]) => {
-      this.students = students;
-    })
-  }
+  @Input() students: Student[] = [];
 
 }

@@ -12,6 +12,7 @@ import { StudentListComponent } from './student-list/student-list.component';
 import { StudentCardComponent } from './student-card/student-card.component';
 import { AscComComponent } from './asc-com/asc-com.component';
 import { StudentFormComponent } from './student-form/student-form.component';
+import { StudentWrapperComponent } from './student-wrapper/student-wrapper.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { StudentFormComponent } from './student-form/student-form.component';
     StudentListComponent,
     StudentCardComponent,
     AscComComponent,
-    StudentFormComponent
+    StudentFormComponent,
+    StudentWrapperComponent
   ],
   imports: [
     BrowserModule,
