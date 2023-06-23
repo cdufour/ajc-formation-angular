@@ -1,0 +1,10 @@
+<form [formGroup]="studentForm">
+    <label>Nom
+        <input id="name" type="text" formControlName="name" />
+    </label>
+    <label>Note
+        <input type="number" formControlName="grade" />
+    </label>
+</form>
+
+<div>{{ studentForm.controls['name'].value }}</div>

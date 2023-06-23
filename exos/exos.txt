@@ -35,3 +35,6 @@ L'apparence du bouton change un fonction de la valeur choisie
 
 Quand oui est choisi, on affiche dans la console la valeur: 1
 Quand non est choisi, on affiche dans la console la valeur: 0
+
+5.
+Exo "textstats". Voir consignes dans le dossier exos/exo-texstats
