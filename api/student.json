@@ -1,16 +1,24 @@
 {
-    "students": [
-        {
-            "name": "Claire",
-            "grade": 18
-        },
-        {
-            "name": "Daniel",
-            "grade": 2
-        },
-        {
-            "name": "Nathalie",
-            "grade": 12.5
-        }
-    ]
+  "students": [
+    {
+      "id": 1,
+      "name": "Claire",
+      "grade": 18
+    },
+    {
+      "id": 2,
+      "name": "Daniel",
+      "grade": 2
+    },
+    {
+      "id": 3,
+      "name": "Nathalie",
+      "grade": 12.5
+    },
+    {
+      "name": "Toto",
+      "grade": 8,
+      "id": 4
+    }
+  ]
 }

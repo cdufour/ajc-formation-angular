@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpResponse } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Student } from './student';
 
@@ -13,8 +13,10 @@ export class StudentService {
   constructor(private httpClient: HttpClient) { }
 
   getStudents(): Observable<Student[]> {
-
     return this.httpClient.get<Student[]>(API);
+  }
 
+  postStudent(student: Student): Observable<Student> {
+    return this.httpClient.post<Student>(API, student)
   }
 }

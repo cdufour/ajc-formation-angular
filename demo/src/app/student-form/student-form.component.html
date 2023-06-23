@@ -1,0 +1,20 @@
+<div>
+    <h4>Enregistrement d'un étudiant</h4>
+    <form (submit)="onSubmit()" #form="ngForm">
+        <input 
+            name="name" 
+            type="text" 
+            placeholder="Nom" 
+            [(ngModel)]="student.name" 
+        />
+        <input 
+            name="grade" 
+            type="number" 
+            placeholder="Note"
+            [(ngModel)]="student.grade" 
+        />
+        <button>Valider</button>
+    </form>
+</div>
+
+<div>{{ student | json }}</div>
